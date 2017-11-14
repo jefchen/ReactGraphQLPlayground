@@ -1,0 +1,46 @@
+.lix-cell {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #DCDDDE
+}
+
+.lix-cell_dot {
+  background: #5cb85c;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.lix-cell_fully-ramped {
+  color: #5cb85c;
+}
+
+.lix-cell_experiment-cell-container {
+  float:left
+}
+
+.experiment-cell {
+  border: 2px solid #DCDDDE;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.experiment-cell.active {
+  border: 2px solid #5cb85c;
+}
+
+.experiment-cell div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.experiment-cell div:first-child {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.experiment-cell div:last-child {
+  text-align: left;
+}
